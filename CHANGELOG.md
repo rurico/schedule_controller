@@ -1,3 +1,6 @@
+## [0.1.0]
+* [refactor] Official suggestions for improvement
+
 ## [0.0.1]
 
 * [docs] Three language documents

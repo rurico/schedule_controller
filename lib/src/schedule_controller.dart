@@ -57,7 +57,7 @@ class Schedule {
     );
 
     if (newState.timeoutRunOnce &&
-        splitTime.lessTime.length > 0 &&
+        splitTime.lessTime.isNotEmpty &&
         !oldState.notified) callback();
 
     splitTime.moreTime.forEach((data) {
@@ -87,7 +87,9 @@ class Schedule {
 
   SplitTime _splitByZero(Iterable<TimestampHour> list) {
     final less = <TimestampHour>[], more = <TimestampHour>[];
-    for (final item in list) item.time > 0 ? more.add(item) : less.add(item);
+    for (final item in list) {
+      item.time > 0 ? more.add(item) : less.add(item);
+    }
     return SplitTime(lessTime: less, moreTime: more);
   }
 

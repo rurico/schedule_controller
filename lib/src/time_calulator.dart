@@ -8,7 +8,7 @@ class TimeCalculator {
   /// current timestamp
   int get timestamp {
     final date = DateTime.now();
-    return date.millisecondsSinceEpoch + date.timeZoneOffset.inMilliseconds;
+    return date.millisecondsSinceEpoch;
   }
 
   /// today day start timestamp

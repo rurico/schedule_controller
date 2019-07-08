@@ -6,10 +6,7 @@ class TimeCalculator {
   int get oneDay => hoursMs(24);
 
   /// current timestamp
-  int get timestamp {
-    final date = DateTime.now();
-    return date.millisecondsSinceEpoch;
-  }
+  int get timestamp => DateTime.now().millisecondsSinceEpoch;
 
   /// today day start timestamp
   int get todayStart => dayStart(timestamp);
@@ -21,7 +18,11 @@ class TimeCalculator {
   int hoursMs(double hour) => (hour * 3600000).floor();
 
   /// get [dayStart] of the day according to [time]
-  int dayStart(int time) => (timestamp / oneDay).floor() * oneDay;
+  int dayStart(int time) {
+    final dayStartTimestamp = (time / oneDay).floor() * oneDay;
+    final timeZoneOffset = DateTime.now().timeZoneOffset.inMilliseconds;
+    return dayStartTimestamp - timeZoneOffset;
+  }
 
   /// get [dayEnd] of the day according to [time]
   int dayEnd(int time) => dayStart(time) + oneDay;
@@ -36,5 +37,5 @@ class TimeCalculator {
   int elapsedTimeOfToday(double hour) => todayStart + hoursMs(hour) - timestamp;
 
   /// is a new day
-  bool isNewDay(int oldTime) => timestamp - dayStart(oldTime) > oneDay;
+  bool isNewDay(int oldTime) => timestamp - dayStart(oldTime) < 0;
 }

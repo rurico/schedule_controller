@@ -1,3 +1,6 @@
+## [0.1.2]
+* `fix` TimeCalculator dayStart, isNewDay function logic error
+
 ## [0.1.1]
 * `fix` time zone Offset logic error
 

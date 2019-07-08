@@ -1,6 +1,6 @@
 # schedule_controller
 
-Perform several different tasks daily. Very simple and useful timer. It is easy to use. Execute task at fixed time. Confirm scheduled tasks before starting each time, if there are tasks, timing task generation.
+Perform several different tasks daily. Straightforward and useful timer. It is easy to use. Execute tasks at fixed times. Confirm scheduled tasks before starting each time, if there are tasks, timing task generation.
 
 <p align="left">
   <a href="https://pub.dartlang.org/packages/schedule_controller"><img alt="pub version" src="https://img.shields.io/pub/v/schedule_controller.svg"></a>
@@ -14,7 +14,7 @@ Let's explain to everyone
 
 `timeOutRunOnce` is mean run once after timeout
 
-`timing` means to call the` callback` function at every `timing` time. But you need to replace the [8:30AM] to [8.5]. There is no problem with the time zone, it will be automatically adjusted to the user's time.
+`timing` means to call the `callback` function at every `timing` time. But you need to replace the [8:30AM] to [8.5]. There is no problem with the time zone, it will be automatically adjusted to the user's time.
 
 `readFn` is a function to read data, you must return a value
 
@@ -49,4 +49,4 @@ controller.run();
 ```
 
 ## Languages
-[English](https://github.com/TenkaiRuri/schedule_controller) [日本語](https://github.com/TenkaiRuri/schedule_controller/blob/master/doc/japanese.md) [简体中文](https://github.com/TenkaiRuri/schedule_controller/blob/master/doc/chinese.md)
+[English](https://github.com/TenkaiRuri/schedule_controller#schedule_controller) [日本語](https://github.com/TenkaiRuri/schedule_controller/blob/master/doc/japanese.md#%E3%82%B9%E3%82%B1%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB%E3%82%B3%E3%83%B3%E3%83%88%E3%83%AD%E3%83%BC%E3%83%A9) [简体中文](https://github.com/TenkaiRuri/schedule_controller/blob/master/doc/chinese.md#schedule-controller)

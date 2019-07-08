@@ -49,4 +49,4 @@ controller.run();
 ```
 
 ## 语言
-[简体中文](https://github.com/TenkaiRuri/schedule_controller/blob/master/doc/chinese.md) [English](https://github.com/TenkaiRuri/schedule_controller) [日本語](https://github.com/TenkaiRuri/schedule_controller/blob/master/doc/japanese.md)
+[简体中文](https://github.com/TenkaiRuri/schedule_controller/blob/master/doc/chinese.md#schedule-controller) [English](https://github.com/TenkaiRuri/schedule_controller#schedule_controller) [日本語](https://github.com/TenkaiRuri/schedule_controller/blob/master/doc/japanese.md#%E3%82%B9%E3%82%B1%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB%E3%82%B3%E3%83%B3%E3%83%88%E3%83%AD%E3%83%BC%E3%83%A9)

@@ -14,7 +14,7 @@
 
 `timeOutRunOnce`はタイムアウト後に一度実行
 
-`timing`毎日`timing`の時間に` callback`関数を呼び出すことを意味します。しかし、[午前8時30分]を[8.5]に置き換える必要があります。タイムゾーンに問題はありません、自動的にユーザーの時間に調整されます
+`timing`毎日`timing`の時間に`callback`関数を呼び出すことを意味します。しかし、[午前8時30分]を[8.5]に置き換える必要があります。タイムゾーンに問題はありません、自動的にユーザーの時間に調整されます
 
 `readFn`はデータを読み込むの関数、戻り値が必要です
 
@@ -49,4 +49,4 @@ controller.run();
 ```
 
 ## 言葉
-[日本語](https://github.com/TenkaiRuri/schedule_controller/blob/master/doc/japanese.md) [简体中文](https://github.com/TenkaiRuri/schedule_controller/blob/master/doc/chinese.md) [English](https://github.com/TenkaiRuri/schedule_controller)
+[日本語](https://github.com/TenkaiRuri/schedule_controller/blob/master/doc/japanese.md#%E3%82%B9%E3%82%B1%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB%E3%82%B3%E3%83%B3%E3%83%88%E3%83%AD%E3%83%BC%E3%83%A9) [简体中文](https://github.com/TenkaiRuri/schedule_controller/blob/master/doc/chinese.md#schedule-controller) [English](https://github.com/TenkaiRuri/schedule_controller#schedule_controller)

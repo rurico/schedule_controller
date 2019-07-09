@@ -1,3 +1,6 @@
+## `0.1.2+2`
+* `fix` fix `ScheduleData` NoSuchMethodError: The method 'cast' was called on null.
+
 ## `0.1.2+1`
 * `docs` CHANGELOG format change pubspec description
 

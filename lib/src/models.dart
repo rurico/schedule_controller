@@ -35,8 +35,11 @@ class ScheduleData {
     daystart = json['daystart'];
     notified = json['notified'];
     timeoutRunOnce = json['timeoutRunOnce'];
-    timing = json['timing'].cast<double>();
-    remaining = json['remaining'].cast<double>();
+    timing =
+        json['timing'] != null ? json['timing'].cast<double>() : <double>[];
+    remaining = json['remaining'] != null
+        ? json['remaining'].cast<double>()
+        : <double>[];
   }
 
   Map<String, dynamic> toJson() {

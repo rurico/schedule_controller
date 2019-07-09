@@ -1,6 +1,6 @@
 name: schedule_controller
 description: A task scheduler controller Performs several different tasks daily. Straightforward and useful timer.
-version: 0.1.2+1
+version: 0.1.2+2
 author: Tenkai Ruri<babichan@outlook.com>
 homepage: https://github.com/TenkaiRuri/schedule_controller
 

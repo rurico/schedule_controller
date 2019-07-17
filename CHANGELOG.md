@@ -1,3 +1,6 @@
+## [0.1.3+1]
+* `fix` TimeCalculator class convertTimeStampToDays logic
+
 ## [0.1.3]
 * `feat` TimeCalculator class add api of convertTimeStampToDays
 

@@ -19,9 +19,14 @@ class TimeCalculator {
 
   /// get [dayStart] of the day according to [time]
   int dayStart(int time) {
-    final dayStartTimestamp = (time / oneDay).floor() * oneDay;
+    final dayStartTimestamp = convertTimeStampToDays(time);
     final timeZoneOffset = DateTime.now().timeZoneOffset.inMilliseconds;
     return dayStartTimestamp - timeZoneOffset;
+  }
+
+  /// convert timestamp to days
+  int convertTimeStampToDays(int time) {
+    return (time / oneDay).floor() * oneDay;
   }
 
   /// get [dayEnd] of the day according to [time]
